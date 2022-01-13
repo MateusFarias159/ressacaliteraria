@@ -170,53 +170,8 @@ if(isset($_GET["id"])){
                 <input id="submit-button" type="submit" class="btn btn-primary mb-3" value="Cadastrar livro" />
             </form>
         </div>
-
-
-<section class="lista">
-<?php
-        $livros = Livro::listarTodos();
-        //print_r($bebidas);
-        foreach($livros as $b):
-    ?>
-    <div class="card card-w booksize
-            d-inline-block m-2 text-left">
-        <div class="card-body">
-            <!-- Código "mesclado" -->
-            <h5 class="card-title">
-                <?php echo $b->getTitulo(); ?>
-            </h5>
-            <h6 class="card-subtitle">
-                <?= $b->getAutor(); ?>
-            </h6>
-            <p class="card-text">
-                <?= $b->getGenero(); ?>
-            </p>
-            <p class="card-text">
-                <?= $b->getEdicao() . "º edição"; ?>
-            </p>
-            <p class="card-text">
-                <?= "Editora " . $b->getEditora(); ?>
-            </p>
-            <p class="card-text">
-                <?= "pág: " . $b->getPaginas(); ?>
-            </p>
-<a href="index.php?id=<?= $b->getId(); ?>"
-    class="card-link btn btn-warning">
-    Editar
-</a>
-<a
-    onclick="deletar(<?= $b->getId(); ?>)"
-    class="card-link btn btn-secondary">
-    Deletar
-</a>
-        </div>
-    </div>
-   <?php 
-   endforeach;
-   ?>
-</section>
-
-
+        
+        <!--LISTA REMOVIDA PARA NÃO DAR ERRO DEVIDO AO BANCO DE DADOS-->
 
     </main>
     <footer>
