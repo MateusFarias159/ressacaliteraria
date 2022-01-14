@@ -229,17 +229,17 @@ if(isset($_GET["id"])){
             <h6>Mateus de Farias</h6>
         </div>
         
-        <h5>Contribuidores</h5>
+        <h5>Parcerias</h5>
         
         <div class="row justify-content-around mb-3">
             <h6>
-                <a href="https://app-especiaisnba.herokuapp.com">Igor</a>
+                <a href="https://app-especiaisnba.herokuapp.com">Especiais NBA</a>
             </h6>
             <h6>
-                <a href="https://ppi-julio-2022.herokuapp.com">Júlio</a>
+                <a href="https://ppi-julio-2022.herokuapp.com">AnimeLog</a>
             </h6>
             <h6>
-                <a href="https://ppi-projeto-4bi.herokuapp.com">André</a>
+                <a href="https://ppi-projeto-4bi.herokuapp.com">Catalogo de Livros</a>
             </h6>
         </div>
         
