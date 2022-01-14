@@ -217,8 +217,8 @@ if(isset($_GET["id"])){
    ?>
 </section>
 
-
     </main>
+    
     <footer>
         <div class="row justify-content-around mb-3">
             <h6>Beatriz Rayanne</h6>
@@ -232,9 +232,15 @@ if(isset($_GET["id"])){
         <h5>Contribuidores</h5>
         
         <div class="row justify-content-around mb-3">
-            <a href="https://www.app-especiaisnba.herokuapp.com">Igor</a>
-            <a href="https://www.ppi-julio-2022.herokuapp.com">Júlio</a>
-            <a href="https://www.ppi-projeto-4bi.herokuapp.com">André</a>
+            <h6>
+                <a href="https://app-especiaisnba.herokuapp.com">Igor</a>
+            </h6>
+            <h6>
+                <a href="https://ppi-julio-2022.herokuapp.com">Júlio</a>
+            </h6>
+            <h6>
+                <a href="https://ppi-projeto-4bi.herokuapp.com">André</a>
+            </h6>
         </div>
         
         <h6 class="copyright">Ressaca Literária &copy; 2021 - Todos os direitos reservados.</h6>
