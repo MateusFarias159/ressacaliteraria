@@ -232,9 +232,9 @@ if(isset($_GET["id"])){
         <h5>Contribuidores</h5>
         
         <div class="row justify-content-around mb-3">
-            <a href="app-especiaisnba.herokuapp.com">Igor</a>
-            <a href="ppi-julio-2022.herokuapp.com">Júlio</a>
-            <a href="ppi-projeto-4bi.herokuapp.com">André</a>
+            <a href="https://www.app-especiaisnba.herokuapp.com">Igor</a>
+            <a href="https://www.ppi-julio-2022.herokuapp.com">Júlio</a>
+            <a href="https://www.ppi-projeto-4bi.herokuapp.com">André</a>
         </div>
         
         <h6 class="copyright">Ressaca Literária &copy; 2021 - Todos os direitos reservados.</h6>
